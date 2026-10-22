@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large Datasets (too large for Git)
+data/
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+# Model weights & training runs
+models/*.keras
+models/*.h5
+models/*.pt
+runs/
