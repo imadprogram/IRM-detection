@@ -1,19 +1,22 @@
-
+# Core & Data Science
 ipykernel
 numpy
 pandas
 matplotlib
 seaborn
 pillow
+pyyaml
 
+# Computer Vision & Augmentation
 opencv-python
 albumentations
 
+# Deep Learning Models
 tensorflow
+torch
 ultralytics
 scikit-learn
 
+# Application & Testing
 streamlit
 pytest
-
-shutil

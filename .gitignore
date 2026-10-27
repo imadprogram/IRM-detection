@@ -2,21 +2,52 @@
 .venv/
 venv/
 env/
+ENV/
 
-# Large Datasets (too large for Git)
+# Large Datasets & Archives
 data/
-
-# Python & Jupyter cache
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-
-# IDE & Editor settings
-.vscode/
-.idea/
+*.zip
+*.tar
+*.tar.gz
 
 # Model weights & training runs
 models/*.keras
 models/*.h5
 models/*.pt
+*.pt
+*.pth
+*.keras
+*.h5
+*.onnx
 runs/
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+*.env
+
+# Airflow artifacts & logs
+logs/
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS specific files
+.DS_Store
+Thumbs.db
